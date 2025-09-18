@@ -2,7 +2,7 @@
   "name": "car-rental",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ZakheNet.github.io/car-rental",
+  "homepage": "https://ZakheNet.github.io/car-rental/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
